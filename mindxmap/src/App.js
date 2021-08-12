@@ -653,7 +653,9 @@ function App() {
         <h1>
           Mind<span>Map</span>
         </h1>
+        <img src="mind.png" alt=""/>
       </div>
+      
       <div className="choices">
         <h2 className="choice" onClick={sadhguruHandler}>
           Sadhguru
@@ -704,7 +706,7 @@ function App() {
           Kurzgesagt
         </h2>
       </div>
-
+      
       <div className="showContainer">
         <div className="show">{show}</div>
       </div>
