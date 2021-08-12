@@ -1,4 +1,5 @@
 import { React, useState } from "react";
+import mind from './mind.png';
 import "./App.css";
 
 const ramdasDictionary = {
@@ -650,10 +651,15 @@ function App() {
   return (
     <div className="App">
       <div className="head">
-        <h1>
-          Mind<span>Map</span>
-        </h1>
-        <img src="mind.png" alt=""/>
+        <div className="header">
+          <h1 className="logo"> 
+          Mind<span>Map🌙</span>
+          </h1>
+         
+        <h6 className="para">Check Out My Favourite Youtube Videos. Select a Personality to get started.</h6>
+         <img className="image" src="https://i.pinimg.com/originals/24/a7/9a/24a79a561e11c22ad4ed03299420402e.jpg" />
+        </div>
+        
       </div>
       
       <div className="choices">
@@ -705,11 +711,15 @@ function App() {
         <h2 className="choice" onClick={kHandler}>
           Kurzgesagt
         </h2>
+         
       </div>
       
       <div className="showContainer">
         <div className="show">{show}</div>
       </div>
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffd700" fillOpacity="0.9" d="M0,160L48,133.3C96,107,192,53,288,64C384,75,480,149,576,149.3C672,149,768,75,864,74.7C960,75,1056,149,1152,154.7C1248,160,1344,96,1392,64L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z" /></svg>
+      
     </div>
   );
 }

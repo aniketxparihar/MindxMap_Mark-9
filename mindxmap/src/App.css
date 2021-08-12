@@ -3,12 +3,44 @@
   align-items: center;
   justify-content: center;
 }
+html{
+  margin:0;
+  padding:0;
+}
 .head{
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 2rem;
   
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width:80%;
+  text-align: center;
+  
+
+}
+.logo{
+  
+  
+ }
+.para{
+  font-size: 1rem;
+  color: rgb(0, 0, 0);
+   background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 5%, rgba(230,226,40,1) 100%);
+  border-radius:5px;
+  padding:3rem;
+}
+.image{
+height: 200px;
+width:300px;
+opacity:1;
+border-radius:5px;
 }
 .choices{
   
@@ -19,15 +51,15 @@
   flex-wrap: wrap;
   width:100%;
   height:9rem;
-  margin-bottom: 18rem;
+  margin-bottom: 0rem;
 }
 .choice{
   padding:0.5rem 0.5rem;
   cursor: pointer;
-  border:1px solid rgb(218, 221, 17);
-  background-color: rgb(218, 221, 17);
+  background-color: rgb(223, 219, 18);
   text-align: center;
   margin:.5rem;
+  border-radius:5px;
   
   
 }
@@ -35,12 +67,13 @@
 display: flex;
  flex-direction: column;
  align-items: center;
- padding:0rem 10rem;
+ padding:0rem 1rem;
 }
 .showContainer{
  display: flex;
-
+margin-top:9rem;
  flex-direction: column;
+ 
 }
 .link{
   float: left;
@@ -50,7 +83,9 @@ display: flex;
   font-size: 1rem;
   box-shadow: 1px 1px 10px black;
   border-radius: inset 5px;
+  background-color: #fff;
 }
 span{
   color: rgb(218, 221, 17);
+  
 }
