@@ -3,20 +3,27 @@ import mind from './mind.png';
 import "./App.css";
 
 const ramdasDictionary = {
-  1: (
-    <iframe
-      width={300}
-      height={200}
-      src="https://www.youtube.com/embed/viNlErR88GE"
-      title="YouTube video player"
-      frameBorder={0}
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowFullScreen
-    />
+  1: (<div>
+    <iframe width={300} height={200} src="https://www.youtube.com/embed/qraDO93AneQ" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+    <h1>10/10</h1>
+    <h6>Two Masters shed Light on meditation</h6>
+  </div>
+  ),
+  2: (<div>
+    <iframe width={300} height={200} src="https://www.youtube.com/embed/U-qazB7aD3A" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+    <h1>6/10</h1>
+    <h6>Here and How Series</h6>
+  </div>
+  ),
+  3: (<div>
+    <iframe width={300} height={200} src="https://www.youtube.com/embed/rTuXLLuHVXs" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+    <h1>8/10</h1>
+    <h6>Love Beyond Time.</h6>
+  </div>
   ),
 };
 const sadhguruDictionary = {
-  1: (
+  1: (<div>
     <iframe
       width={300}
       height={200}
@@ -26,8 +33,12 @@ const sadhguruDictionary = {
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
     />
+    <h1>9/10</h1>
+    <h6>This Videos is an exceptional monolouge on Life and Death.</h6>
+  </div>
+    
   ),
-  2: (
+  2: (<div>
     <iframe
       width={300}
       height={200}
@@ -37,139 +48,65 @@ const sadhguruDictionary = {
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
     />
+    <h1>10/10</h1>
+    <h6> junction of Modern science and Yogic Science </h6>
+    
+  </div>
+    
   ),
-  3: (
-    <iframe
-      width={300}
-      height={200}
-      src="https://www.youtube.com/embed/BYTB9JROgMI"
-      title="YouTube video player"
-      frameBorder={0}
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowFullScreen
-    />
-  ),
-
-  4: (
-    <iframe
-      width={300}
-      height={200}
-      src="https://www.youtube.com/embed/Gw1I7fqmxmA"
-      title="YouTube video player"
-      frameBorder={0}
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowFullScreen
-    />
-  ),
-  5: (
-    <iframe
-      width={300}
-      height={200}
-      src="https://www.youtube.com/embed/RlF-tO2YVPg"
-      title="YouTube video player"
-      frameBorder="{0}"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowFullScreen
-    ></iframe>
-  ),
-  6: (
-    <iframe
-      width={300}
-      height={200}
-      src="https://www.youtube.com/embed/IAoffyn2xpM"
-      title="YouTube video player"
-      frameBorder={0}
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowFullScreen
-    />
-  ),
+  3: (<div>
+    <iframe width={300} height={200} src="https://www.youtube.com/embed/IAoffyn2xpM" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+    <h1>7/10</h1>
+    <h6>Talk between Matthew and Sadhguru</h6>
+    
+  </div>
+  )
 };
-const neitzcheDictionary = {
-  1: (
-    <iframe
-      width={300}
-      height={200}
-      src="https://www.youtube.com/embed/LCiB9oMnIbI"
-      title="YouTube video player"
-      frameBorder={0}
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowFullScreen
-    />
-  ),
-  2: (
-    <iframe
-      width={300}
-      height={200}
-      src="https://www.youtube.com/embed/MwgkvBZXum0"
-      title="YouTube video player"
-      frameBorder={0}
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowFullScreen
-    />
-  ),
-  3: (
-    <iframe
-      width={300}
-      height={200}
-      src="https://www.youtube.com/embed/BYTB9JROgMI"
-      title="YouTube video player"
-      frameBorder={0}
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowFullScreen
-    />
-  ),
 
-  4: (
-    <iframe
-      width={300}
-      height={200}
-      src="https://www.youtube.com/embed/Gw1I7fqmxmA"
-      title="YouTube video player"
-      frameBorder={0}
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowFullScreen
-    />
-  ),
-};
 const awDictionary = {
-  1: (
-    <iframe
-      width={300}
-      height={200}
-      src="https://www.youtube.com/embed/re5-944zsmk"
-      title="YouTube video player"
-      frameBorder={0}
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowFullScreen
-    />
+  1: (<div>
+    <iframe width={300} height={200} src="https://www.youtube.com/embed/HitOU27liRY" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+
+    <h1>7/10</h1>
+    <h6>Slow Down</h6>
+  </div>
+  ),
+  2: (<div>
+    <iframe width={300} height={200} src="https://www.youtube.com/embed/15JXVqXPn5E" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+    <h1>10/10</h1>
+    <h6>Relax Your Mind</h6>
+  </div>
+  ),
+  3: (<div>
+   <iframe width={560} height={315} src="https://www.youtube.com/embed/gbngLDPSaDw" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+    <h1>10/10</h1>
+    <h6>What is Reality!!!!?</h6>
+  </div>
   ),
 };
 const sidwarrierDictionary = {
-  1: (
-    <iframe
-      width={300}
-      height={200}
-      src="https://www.youtube.com/embed/MioXJQ-zWh8"
-      title="YouTube video player"
-      frameBorder={0}
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowFullScreen
-    />
+  1: (<div>
+    <iframe width={300} height={200} src="https://www.youtube.com/embed/iVXV4KuBVKY" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+    <h1>6/10</h1>
+    <h6>Neuroscience of Learning</h6>
+  </div>
+  ),
+  2: (<div>
+    <iframe width={300} height={200} src="https://www.youtube.com/embed/MioXJQ-zWh8" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+    <h1>7/10</h1>
+    <h6>Existential Crisis!!</h6>
+  </div>
+  ),
+  3: (<div>
+    <iframe width={300} height={200} src="https://www.youtube.com/embed/smChtQw9_z0" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+    <h1>10/10</h1>
+    <h6>Knowledge Bombs with Kunal Shah and Sid</h6>
+  </div>
   ),
 };
+/*
 const srimDictionary = {
-  1: (
-    <iframe
-      width={300}
-      height={200}
-      src="https://www.youtube.com/embed/LCiB9oMnIbI"
-      title="YouTube video player"
-      frameBorder={0}
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowFullScreen
-    />
-  ),
-  2: (
+  1: (<div>
     <iframe
       width={300}
       height={200}
@@ -179,140 +116,188 @@ const srimDictionary = {
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
     />
+    <h1>10/10</h1>
+    <h6>This Videos explores the junction of Modern science </h6>
+    <h6>and Yogic Science.</h6>
+  </div>
   ),
-  3: (
+  2: (<div>
     <iframe
       width={300}
       height={200}
-      src="https://www.youtube.com/embed/BYTB9JROgMI"
+      src="https://www.youtube.com/embed/MwgkvBZXum0"
       title="YouTube video player"
       frameBorder={0}
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
     />
+    <h1>10/10</h1>
+    <h6>This Videos explores the junction of Modern science </h6>
+    <h6>and Yogic Science.</h6>
+  </div>
+  ),
+  3: (<div>
+    <iframe
+      width={300}
+      height={200}
+      src="https://www.youtube.com/embed/MwgkvBZXum0"
+      title="YouTube video player"
+      frameBorder={0}
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+    />
+    <h1>10/10</h1>
+    <h6>This Videos explores the junction of Modern science </h6>
+    <h6>and Yogic Science.</h6>
+  </div>
   ),
 
-  4: (
+  4: (<div>
     <iframe
       width={300}
       height={200}
-      src="https://www.youtube.com/embed/Gw1I7fqmxmA"
+      src="https://www.youtube.com/embed/MwgkvBZXum0"
       title="YouTube video player"
       frameBorder={0}
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
     />
+    <h1>10/10</h1>
+    <h6>This Videos explores the junction of Modern science </h6>
+    <h6>and Yogic Science.</h6>
+  </div>
   ),
 };
 const jkDictionary = {
-  1: (
+  1: (<div>
     <iframe
       width={300}
       height={200}
-      src="https://www.youtube.com/embed/9fTq7OhbYxo"
+      src="https://www.youtube.com/embed/MwgkvBZXum0"
       title="YouTube video player"
       frameBorder={0}
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
     />
+    <h1>10/10</h1>
+    <h6>This Videos explores the junction of Modern science </h6>
+    <h6>and Yogic Science.</h6>
+  </div>
   ),
-  2: (
+  2: (<div>
     <iframe
       width={300}
       height={200}
-      src="https://www.youtube.com/embed/EJm-N4B_odA"
+      src="https://www.youtube.com/embed/MwgkvBZXum0"
       title="YouTube video player"
       frameBorder={0}
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
     />
+    <h1>10/10</h1>
+    <h6>This Videos explores the junction of Modern science </h6>
+    <h6>and Yogic Science.</h6>
+  </div>
   ),
 };
 const tbDictionary = {
-  1: (
+  1: (<div>
     <iframe
       width={300}
       height={200}
-      src="https://www.youtube.com/embed/La9oLLoI5Rc"
+      src="https://www.youtube.com/embed/MwgkvBZXum0"
       title="YouTube video player"
       frameBorder={0}
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
     />
+    <h1>10/10</h1>
+    <h6>This Videos explores the junction of Modern science </h6>
+    <h6>and Yogic Science.</h6>
+  </div>
   ),
-  2: (
+  2: (<div>
     <iframe
-      wwidth={300}
+      width={300}
       height={200}
-      src="https://www.youtube.com/embed/5m81Qsw0gLw"
+      src="https://www.youtube.com/embed/MwgkvBZXum0"
       title="YouTube video player"
       frameBorder={0}
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
     />
+    <h1>10/10</h1>
+    <h6>This Videos explores the junction of Modern science </h6>
+    <h6>and Yogic Science.</h6>
+  </div>
   ),
 };
 const pgDictionary = {
-  1: (
+  1: (<div>
     <iframe
       width={300}
       height={200}
-      src="https://www.youtube.com/embed/VSduGJo0CuU"
+      src="https://www.youtube.com/embed/MwgkvBZXum0"
       title="YouTube video player"
       frameBorder={0}
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
     />
+    <h1>10/10</h1>
+    <h6>This Videos explores the junction of Modern science </h6>
+    <h6>and Yogic Science.</h6>
+  </div>
   ),
-  2: (
+  2: (<div>
     <iframe
       width={300}
       height={200}
-      src="https://www.youtube.com/embed/qH3mjovZllM"
+      src="https://www.youtube.com/embed/MwgkvBZXum0"
       title="YouTube video player"
-      frameBorder="{0}"
+      frameBorder={0}
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
-    ></iframe>
+    />
+    <h1>10/10</h1>
+    <h6>This Videos explores the junction of Modern science </h6>
+    <h6>and Yogic Science.</h6>
+  </div>
   ),
 };
 const camusDictionary = {
-  1: (
+  1: (<div>
     <iframe
       width={300}
       height={200}
-      src="https://www.youtube.com/embed/_hJZEq61KeM"
+      src="https://www.youtube.com/embed/MwgkvBZXum0"
       title="YouTube video player"
       frameBorder={0}
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
     />
+    <h1>10/10</h1>
+    <h6>This Videos explores the junction of Modern science </h6>
+    <h6>and Yogic Science.</h6>
+  </div>
   ),
-  2: (
+  2: (<div>
     <iframe
       width={300}
       height={200}
-      src="https://www.youtube.com/embed/vPtzpjC7TF4"
+      src="https://www.youtube.com/embed/MwgkvBZXum0"
       title="YouTube video player"
       frameBorder={0}
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
     />
+    <h1>10/10</h1>
+    <h6>This Videos explores the junction of Modern science </h6>
+    <h6>and Yogic Science.</h6>
+  </div>
   ),
 };
 const whDictionary = {
-  1: (
-    <iframe
-      width={300}
-      height={200}
-      src="https://www.youtube.com/embed/LCiB9oMnIbI"
-      title="YouTube video player"
-      frameBorder={0}
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowFullScreen
-    />
-  ),
-  2: (
+  1: (<div>
     <iframe
       width={300}
       height={200}
@@ -322,44 +307,60 @@ const whDictionary = {
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
     />
+    <h1>10/10</h1>
+    <h6>This Videos explores the junction of Modern science </h6>
+    <h6>and Yogic Science.</h6>
+  </div>
   ),
-  3: (
+  2: (<div>
     <iframe
       width={300}
       height={200}
-      src="https://www.youtube.com/embed/BYTB9JROgMI"
+      src="https://www.youtube.com/embed/MwgkvBZXum0"
       title="YouTube video player"
       frameBorder={0}
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
     />
+    <h1>10/10</h1>
+    <h6>This Videos explores the junction of Modern science </h6>
+    <h6>and Yogic Science.</h6>
+  </div>
+  ),
+  3: (<div>
+    <iframe
+      width={300}
+      height={200}
+      src="https://www.youtube.com/embed/MwgkvBZXum0"
+      title="YouTube video player"
+      frameBorder={0}
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+    />
+    <h1>10/10</h1>
+    <h6>This Videos explores the junction of Modern science </h6>
+    <h6>and Yogic Science.</h6>
+  </div>
   ),
 
-  4: (
+  4: (<div>
     <iframe
       width={300}
       height={200}
-      src="https://www.youtube.com/embed/Gw1I7fqmxmA"
+      src="https://www.youtube.com/embed/MwgkvBZXum0"
       title="YouTube video player"
       frameBorder={0}
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
     />
+    <h1>10/10</h1>
+    <h6>This Videos explores the junction of Modern science </h6>
+    <h6>and Yogic Science.</h6>
+  </div>
   ),
 };
 const jrDictionary = {
-  1: (
-    <iframe
-      width={300}
-      height={200}
-      src="https://www.youtube.com/embed/LCiB9oMnIbI"
-      title="YouTube video player"
-      frameBorder={0}
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowFullScreen
-    />
-  ),
-  2: (
+  1: (<div>
     <iframe
       width={300}
       height={200}
@@ -369,44 +370,60 @@ const jrDictionary = {
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
     />
+    <h1>10/10</h1>
+    <h6>This Videos explores the junction of Modern science </h6>
+    <h6>and Yogic Science.</h6>
+  </div>
   ),
-  3: (
+  2: (<div>
     <iframe
       width={300}
       height={200}
-      src="https://www.youtube.com/embed/BYTB9JROgMI"
+      src="https://www.youtube.com/embed/MwgkvBZXum0"
       title="YouTube video player"
       frameBorder={0}
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
     />
+    <h1>10/10</h1>
+    <h6>This Videos explores the junction of Modern science </h6>
+    <h6>and Yogic Science.</h6>
+  </div>
+  ),
+  3: (<div>
+    <iframe
+      width={300}
+      height={200}
+      src="https://www.youtube.com/embed/MwgkvBZXum0"
+      title="YouTube video player"
+      frameBorder={0}
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+    />
+    <h1>10/10</h1>
+    <h6>This Videos explores the junction of Modern science </h6>
+    <h6>and Yogic Science.</h6>
+  </div>
   ),
 
-  4: (
+  4: (<div>
     <iframe
       width={300}
       height={200}
-      src="https://www.youtube.com/embed/Gw1I7fqmxmA"
+      src="https://www.youtube.com/embed/MwgkvBZXum0"
       title="YouTube video player"
       frameBorder={0}
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
     />
+    <h1>10/10</h1>
+    <h6>This Videos explores the junction of Modern science </h6>
+    <h6>and Yogic Science.</h6>
+  </div>
   ),
 };
 const rfDictionary = {
-  1: (
-    <iframe
-      width={300}
-      height={200}
-      src="https://www.youtube.com/embed/LCiB9oMnIbI"
-      title="YouTube video player"
-      frameBorder={0}
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowFullScreen
-    />
-  ),
-  2: (
+  1: (<div>
     <iframe
       width={300}
       height={200}
@@ -416,44 +433,60 @@ const rfDictionary = {
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
     />
+    <h1>10/10</h1>
+    <h6>This Videos explores the junction of Modern science </h6>
+    <h6>and Yogic Science.</h6>
+  </div>
   ),
-  3: (
+  2: (<div>
     <iframe
       width={300}
       height={200}
-      src="https://www.youtube.com/embed/BYTB9JROgMI"
+      src="https://www.youtube.com/embed/MwgkvBZXum0"
       title="YouTube video player"
       frameBorder={0}
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
     />
+    <h1>10/10</h1>
+    <h6>This Videos explores the junction of Modern science </h6>
+    <h6>and Yogic Science.</h6>
+  </div>
+  ),
+  3: (<div>
+    <iframe
+      width={300}
+      height={200}
+      src="https://www.youtube.com/embed/MwgkvBZXum0"
+      title="YouTube video player"
+      frameBorder={0}
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+    />
+    <h1>10/10</h1>
+    <h6>This Videos explores the junction of Modern science </h6>
+    <h6>and Yogic Science.</h6>
+  </div>
   ),
 
-  4: (
+  4: (<div>
     <iframe
       width={300}
       height={200}
-      src="https://www.youtube.com/embed/Gw1I7fqmxmA"
+      src="https://www.youtube.com/embed/MwgkvBZXum0"
       title="YouTube video player"
       frameBorder={0}
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
     />
+    <h1>10/10</h1>
+    <h6>This Videos explores the junction of Modern science </h6>
+    <h6>and Yogic Science.</h6>
+  </div>
   ),
 };
 const maDictionary = {
-  1: (
-    <iframe
-      width={300}
-      height={200}
-      src="https://www.youtube.com/embed/LCiB9oMnIbI"
-      title="YouTube video player"
-      frameBorder={0}
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowFullScreen
-    />
-  ),
-  2: (
+  1: (<div>
     <iframe
       width={300}
       height={200}
@@ -463,44 +496,60 @@ const maDictionary = {
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
     />
+    <h1>10/10</h1>
+    <h6>This Videos explores the junction of Modern science </h6>
+    <h6>and Yogic Science.</h6>
+  </div>
   ),
-  3: (
+  2: (<div>
     <iframe
       width={300}
       height={200}
-      src="https://www.youtube.com/embed/BYTB9JROgMI"
+      src="https://www.youtube.com/embed/MwgkvBZXum0"
       title="YouTube video player"
       frameBorder={0}
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
     />
+    <h1>10/10</h1>
+    <h6>This Videos explores the junction of Modern science </h6>
+    <h6>and Yogic Science.</h6>
+  </div>
+  ),
+  3: (<div>
+    <iframe
+      width={300}
+      height={200}
+      src="https://www.youtube.com/embed/MwgkvBZXum0"
+      title="YouTube video player"
+      frameBorder={0}
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+    />
+    <h1>10/10</h1>
+    <h6>This Videos explores the junction of Modern science </h6>
+    <h6>and Yogic Science.</h6>
+  </div>
   ),
 
-  4: (
+  4: (<div>
     <iframe
       width={300}
       height={200}
-      src="https://www.youtube.com/embed/Gw1I7fqmxmA"
+      src="https://www.youtube.com/embed/MwgkvBZXum0"
       title="YouTube video player"
       frameBorder={0}
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
     />
+    <h1>10/10</h1>
+    <h6>This Videos explores the junction of Modern science </h6>
+    <h6>and Yogic Science.</h6>
+  </div>
   ),
 };
 const jbDictionary = {
-  1: (
-    <iframe
-      width={300}
-      height={200}
-      src="https://www.youtube.com/embed/LCiB9oMnIbI"
-      title="YouTube video player"
-      frameBorder={0}
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowFullScreen
-    />
-  ),
-  2: (
+  1: (<div>
     <iframe
       width={300}
       height={200}
@@ -510,44 +559,60 @@ const jbDictionary = {
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
     />
+    <h1>10/10</h1>
+    <h6>This Videos explores the junction of Modern science </h6>
+    <h6>and Yogic Science.</h6>
+  </div>
   ),
-  3: (
+  2: (<div>
     <iframe
       width={300}
       height={200}
-      src="https://www.youtube.com/embed/BYTB9JROgMI"
+      src="https://www.youtube.com/embed/MwgkvBZXum0"
       title="YouTube video player"
       frameBorder={0}
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
     />
+    <h1>10/10</h1>
+    <h6>This Videos explores the junction of Modern science </h6>
+    <h6>and Yogic Science.</h6>
+  </div>
+  ),
+  3: (<div>
+    <iframe
+      width={300}
+      height={200}
+      src="https://www.youtube.com/embed/MwgkvBZXum0"
+      title="YouTube video player"
+      frameBorder={0}
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+    />
+    <h1>10/10</h1>
+    <h6>This Videos explores the junction of Modern science </h6>
+    <h6>and Yogic Science.</h6>
+  </div>
   ),
 
-  4: (
+  4: (<div>
     <iframe
       width={300}
       height={200}
-      src="https://www.youtube.com/embed/Gw1I7fqmxmA"
+      src="https://www.youtube.com/embed/MwgkvBZXum0"
       title="YouTube video player"
       frameBorder={0}
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
     />
+    <h1>10/10</h1>
+    <h6>This Videos explores the junction of Modern science </h6>
+    <h6>and Yogic Science.</h6>
+  </div>
   ),
 };
 const khDictionary = {
-  1: (
-    <iframe
-      width={300}
-      height={200}
-      src="https://www.youtube.com/embed/LCiB9oMnIbI"
-      title="YouTube video player"
-      frameBorder={0}
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowFullScreen
-    />
-  ),
-  2: (
+  1: (<div>
     <iframe
       width={300}
       height={200}
@@ -557,48 +622,75 @@ const khDictionary = {
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
     />
+    <h1>10/10</h1>
+    <h6>This Videos explores the junction of Modern science </h6>
+    <h6>and Yogic Science.</h6>
+  </div>
   ),
-  3: (
+  2: (<div>
     <iframe
       width={300}
       height={200}
-      src="https://www.youtube.com/embed/BYTB9JROgMI"
+      src="https://www.youtube.com/embed/MwgkvBZXum0"
       title="YouTube video player"
       frameBorder={0}
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
     />
+    <h1>10/10</h1>
+    <h6>This Videos explores the junction of Modern science </h6>
+    <h6>and Yogic Science.</h6>
+  </div>
+  ),
+  3: (<div>
+    <iframe
+      width={300}
+      height={200}
+      src="https://www.youtube.com/embed/MwgkvBZXum0"
+      title="YouTube video player"
+      frameBorder={0}
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+    />
+    <h1>10/10</h1>
+    <h6>This Videos explores the junction of Modern science </h6>
+    <h6>and Yogic Science.</h6>
+  </div>
   ),
 
-  4: (
+  4: (<div>
     <iframe
       width={300}
       height={200}
-      src="https://www.youtube.com/embed/Gw1I7fqmxmA"
+      src="https://www.youtube.com/embed/MwgkvBZXum0"
       title="YouTube video player"
       frameBorder={0}
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
     />
+    <h1>10/10</h1>
+    <h6>This Videos explores the junction of Modern science </h6>
+    <h6>and Yogic Science.</h6>
+  </div>
   ),
-};
+};*/
 function App() {
   const sadhguru = Object.values(sadhguruDictionary);
   const ramdas = Object.values(ramdasDictionary);
-  const neitzche = Object.values(neitzcheDictionary);
-  const camus = Object.values(camusDictionary);
-  const pg = Object.values(pgDictionary);
-  const tb = Object.values(tbDictionary);
-  const jk = Object.values(jkDictionary);
-  const srim = Object.values(srimDictionary);
+  //const neitzche = Object.values(neitzcheDictionary);
+  //const camus = Object.values(camusDictionary);
+  //const pg = Object.values(pgDictionary);
+  //const tb = Object.values(tbDictionary);
+  //const jk = Object.values(jkDictionary);
+  //const srim = Object.values(srimDictionary);
   const sidwarrier = Object.values(sidwarrierDictionary);
-  const aw = Object.values(awDictionary);
+  /*const aw = Object.values(awDictionary);
   const jb = Object.values(jbDictionary);
   const wh = Object.values(whDictionary);
   const jr = Object.values(jrDictionary);
   const rf = Object.values(rfDictionary);
   const kh = Object.values(khDictionary);
-  const ma = Object.values(maDictionary);
+  const ma = Object.values(maDictionary);*/
   const [show, setShow] = useState("");
   const sadhguruHandler = () => {
     setShow(sadhguru.map((video) => <span className="link"> {video} </span>));
@@ -606,10 +698,10 @@ function App() {
   const ramdasHandler = () => {
     setShow(ramdas.map((video) => <span className="link"> {video} </span>));
   };
-  const neitzcheHandler = () => {
-    setShow(neitzche.map((video) => <span className="link"> {video} </span>));
-  };
-  const camusHandler = () => {
+  //const neitzcheHandler = () => {
+  //  setShow(neitzche.map((video) => <span className="link"> {video} </span>));
+  //};
+  /*const camusHandler = () => {
     setShow(camus.map((video) => <span className="link"> {video} </span>));
   };
   const pgHandler = () => {
@@ -623,11 +715,11 @@ function App() {
   };
   const srimHandler = () => {
     setShow(srim.map((video) => <span className="link"> {video} </span>));
-  };
+  };*/
   const sidwarrierHandler = () => {
     setShow(sidwarrier.map((video) => <span className="link"> {video} </span>));
   };
-  const awHandler = () => {
+  /*const awHandler = () => {
     setShow(aw.map((video) => <span className="link"> {video} </span>));
   };
   const jbHandler = () => {
@@ -647,7 +739,7 @@ function App() {
   };
   const maHandler = () => {
     setShow(ma.map((video) => <span className="link"> {video} </span>));
-  };
+  };*/
   return (
     <div className="App">
       <div className="head">
@@ -656,7 +748,7 @@ function App() {
           Mind<span>Map🌙</span>
           </h1>
          
-        <h6 className="para">Check Out My Favourite Youtube Videos. Select a Personality to get started.</h6>
+        <h6 className="para">Check Out My Favourite Youtube Videos. Select a Personality to get started. Stay Tuned Many more Videos will be shared soon.</h6>
          <img className="image" src="https://i.pinimg.com/originals/24/a7/9a/24a79a561e11c22ad4ed03299420402e.jpg" />
         </div>
         
@@ -669,49 +761,9 @@ function App() {
         <h2 className="choice" onClick={ramdasHandler}>
           Ramdas
         </h2>
-        <h2 className="choice" onClick={tbHandler}>
-          Tom Bileyu
-        </h2>
-        <h2 className="choice" onClick={pgHandler}>
-          Prakhar Gupta
-        </h2>
-        <h2 className="choice" onClick={jkHandler}>
-          Jiddu Krishnamurthy
-        </h2>
-        <h2 className="choice" onClick={srimHandler}>
-          Sri M
-        </h2>
-        <h2 className="choice" onClick={awHandler}>
-          Alan Watts
-        </h2>
-        <h2 className="choice" onClick={neitzcheHandler}>
-          Neitzche
-        </h2>
         <h2 className="choice" onClick={sidwarrierHandler}>
           Siddartha Warrier
-        </h2>
-        <h2 className="choice" onClick={maHandler}>
-          Marcus Aurelius
-        </h2>
-        <h2 className="choice" onClick={camusHandler}>
-          Albert Camus
-        </h2>
-        <h2 className="choice" onClick={jbHandler}>
-          John Butler
-        </h2>
-        <h2 className="choice" onClick={jrHandler}>
-          Joe Rogan
-        </h2>
-        <h2 className="choice" onClick={whHandler}>
-          Wim Hoff
-        </h2>
-        <h2 className="choice" onClick={rfHandler}>
-          Richard Feynman
-        </h2>
-        <h2 className="choice" onClick={kHandler}>
-          Kurzgesagt
-        </h2>
-         
+        </h2>   
       </div>
       
       <div className="showContainer">
